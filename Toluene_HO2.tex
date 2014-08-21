@@ -1,0 +1,43 @@
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=\textwidth]{img/TOL_MCM_CRI_HO2x_intermediates}
+        \caption{The \ce{HO2_x} production budgets from toluene degradation attributed to the responsible reactions in (a) MCM v3.2 and (b) CRI v2.}
+        \label{f:toluene_HO2x}
+    \end{center}
+\end{figure} 
+
+{
+    \renewcommand{\arraystretch}{1.3}
+    \begin{table}
+        \begin{center}\small
+            \begin{tabular}{lP{6.8cm}P{3.0cm}}
+                \hline \hline
+                \textbf{Mechanism} & \textbf{Photolysis Pathway} & \textbf{Rate Parameter} \\ \hline \hline
+                \multirow{3}{*}{MCM v3.2} & GLYOX + hv = CO + CO + H2 & J$_{31}$ \\
+                & GLYOX + hv = HCHO + CO & J$_{32}$ \\
+                & GLYOX + hv = CO + CO + HO2 + HO2 & J$_{33}$ \\ \hline
+                CRI v2 & CARB3 + hv = CO + CO + HO2 + HO2 & J$_{33}$ \\ \hline \hline
+            \end{tabular}
+            \caption{Glyoxal photolysis in MCM v3.2 and CRI v2 with specified rate parameters.}
+            \label{t:glyoxal}
+        \end{center}
+    \end{table}
+}
+
+The paper showed that the CRI v2 maximum daily toluene TOPP value is reached on the second day whilst in the MCM v3.2 this is reached on the first. 
+Figure \ref{f:toluene_HO2x} illustrates the \ce{HO2_x} production budget allocated to the responsible reactions for both the MCM v3.2 and CRI v2. 
+The \ce{HO2_x} production from the reaction of CARB3 and OH in CRI v2 has a larger contribution than its corresponding reaction (\mbox{GLYOX + OH}) in the MCM v3.2.
+
+Despite glyoxal being represented as CARB3 in CRI v2 and GLYOX in MCM v3.2, there are many differences in how glyoxal chemistry is treated. 
+In CRI v2, CARB3 is only produced from aromatic degradation whilst GLYOX is a degradation product of many other non-aromatic NMVOCs in MCM v3.2. 
+
+Glyoxal degradation is through reaction with OH radical and photolysis in CRI v2. 
+Extra degradation options are available in MCM v3.2. 
+Moreover, the rate constant for the reaction with OH radical is $\sim$ 15\% faster in CRI v2 than in MCM v3.2. 
+
+Glyoxal has three available photolysis pathways in MCM v3.2 and only one in \mbox{CRI v2}. 
+These photolysis pathways and their rate parameters are outlined in Table \ref{t:glyoxal}. 
+The additional photolysis pathways in MCM v3.2 are non-\ce{HO2_x} producing pathways leading to less \ce{HO2_x} production.
+
+The combination of the higher rate constant for the glyoxal reaction with OH radical and additional \ce{HO2_x} production during CRI v2 photolysis are responsible for the higher \ce{HO2_x} production in CRI v2. 
