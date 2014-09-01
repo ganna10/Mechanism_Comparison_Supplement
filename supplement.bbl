@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,6 +12,14 @@ C.~Bloss, V.~Wagner, M.~E. Jenkin, R.~Vollamer, W.~J. Bloss, J.~D. Lee, D.~E.
 \newblock {Development of a detailed chemical mechanism (MCMv3.1) for the
   atmospheric oxidation of aromatic hydrocarbons}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 641--664, 2005.
+
+\bibitem[Butler et~al.(2011)Butler, Lawrence, Taraborrelli, and
+  Lelieveld]{Butler:2011}
+T.~M. Butler, M.~G. Lawrence, D.~Taraborrelli, and J.~Lelieveld.
+\newblock {Multi-day ozone production potential of volatile organic compounds
+  calculated with a tagging approach}.
+\newblock \emph{Atmospheric Environment}, 45\penalty0 (24):\penalty0
+  4082--4090, 2011.
 
 \bibitem[Damian et~al.(2002)Damian, Sandu, Damian, Potra, and
   Carmichael]{Damian:2002}
@@ -42,14 +50,12 @@ Andrew Rickard, Jenny Young, and Stephen Pascoe.
 \newblock \url{http://mcm.leeds.ac.uk/MCM/project.htt\#New\_3.2}, 2014.
 \newblock [Online; accessed 05-August-2014].
 
-\bibitem[Sander et~al.(2011)Sander, Baumgaertner, Gromov, Harder, J{\"o}ckel,
-  Kerkweg, Kubistin, Regelin, Riede, Sandu, Taraborrelli, Tost, and
-  Xie]{Sander:2011}
-R.~Sander, A.~Baumgaertner, S.~Gromov, H.~Harder, P.~J{\"o}ckel, A.~Kerkweg,
-  D.~Kubistin, E.~Regelin, H.~Riede, A.~Sandu, D.~Taraborrelli, H.~Tost, and
-  Z.-Q. Xie.
-\newblock {The atmospheric chemistry box model CAABA/MECCA-3.0}.
-\newblock \emph{Geoscientific Model Development}, 4:\penalty0 373--380, 2011.
+\bibitem[Sander et~al.(2005)Sander, Kerkweg, J{\"o}ckel, and
+  Lelieveld]{Sander:2005}
+R.~Sander, A.~Kerkweg, P.~J{\"o}ckel, and J.~Lelieveld.
+\newblock {Technical Note: The new comprehensive atmospheric chemistry module
+  MECCA}.
+\newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 445--450, 2005.
 
 \bibitem[Saunders et~al.(2003)Saunders, Jenkin, Derwent, and
   Pilling]{Saunders:2003}

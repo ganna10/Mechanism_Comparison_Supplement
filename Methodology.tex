@@ -1,20 +1,19 @@
-All chemical mechanisms were adapted into the modularised KPP \citep{Damian:2002} format from their original format for use in the MECCA boxmodel \citep{Sander:2011}.
-test
+All chemical mechanisms were adapted into the modularised KPP \citep{Damian:2002} format from their original format for use in the MECCA boxmodel \citep{Sander:2005} as modified by \citep{Butler:2011}.
 
 The MCM v3.2 \citep{Jenkin:1997, Jenkin:2003, Saunders:2003, Bloss:2005, MCM_Site} was the reference mechanism. 
 Its approach to inorganic chemistry, dry deposition, photolysis and treatment of peroxy radical--peroxy radical reactions were applied to all mechanisms. 
 
 \subsection{Photolysis} \label{ss:photolysis}
 Photolysis was parameterised as a function of the solar zenith angle as per the MCM approach \citep{Saunders:2003}. 
-Mechanism species with a direct MCM v3.2 counterpart were assigned the corresponding MCM v3.2 photolysis rate parameter. 
-Otherwise the mechanism's literature was used to determine the appropriate MCM v3.2 photolysis rate parameter. 
-In some cases this was the MCM v3.2 photolysis rate parameter closest in magnitude to that specified in the mechanism. 
+Species from reduced mechanisms having a direct MCM v3.2 counterpart were assigned the corresponding MCM v3.2 photolysis rate. 
+Otherwise the recommended mechanism rate was used to determine the appropriate MCM v3.2 photolysis rate. 
+In some cases this was the MCM v3.2 photolysis rate closest in magnitude to that specified in the mechanism. 
 
-For example, in RACM2 the organic nitrate species ONIT has a photolysis rate of $1.96 \times 10^{-6}$ s$^{-1}$ that was compared to the MCM v3.2 organic nitrate photolysis rate parameters (J$_{51}$ -- J$_{57}$). 
-The rate parameter J$_{54}$ was the most similar and this was assigned as the ONIT photolysis rate parameter in RACM2.
+For example, in RACM2 the organic nitrate species ONIT has a photolysis rate of $1.96 \times 10^{-6}$ s$^{-1}$ that was compared to the MCM v3.2 organic nitrate photolysis rates (J$_{51}$ -- J$_{57}$). 
+The rate parameter J$_{54}$ was the most similar in magnitude and was assigned as the ONIT photolysis rate in RACM2.
 
-Photolysis of a mechanism species was sometimes represented by more than one \mbox{MCM v3.2} photolysis reaction. 
-The product yield of the original mechanism reaction was preserved by using a combination of the MCM v3.2 rate parameters. 
+Photolysis of a reduced mechanism species was sometimes represented by more than one \mbox{MCM v3.2} photolysis reaction. 
+The product yield of the original mechanism reaction was preserved by using a combination of the MCM v3.2 rate. 
 For example, the photolysis of methyl vinyl ketone (MVK) in MOZART-4 is described by the reaction
 \begin{reactionlist}
     \reactionitem{\ce{MVK + h$\nu$}}{0.7 CO + 0.7 \ce{C3H6} + 0.3 \ce{CH3O2} + 0.3 \ce{CH3CO3}}{new}{r:MVK_hv_MOZ}
@@ -24,9 +23,9 @@ Whereas in the MCM v3.2 it is described by two reactions
     \reactionitem{\ce{MVK + h$\nu$}}{\ce{C3H6 + CO}}{new}{r:MVK_hv_MCM_1}
     \reactionitem{\ce{MVK + h$\nu$}}{\ce{CH3CO3 + CO + HCHO + HO2}}{new}{r:MVK_hv_MCM_2}
 \end{reactionlist}
-where the photolysis parameters for reactions \reactionref{r:MVK_hv_MCM_1} and \reactionref{r:MVK_hv_MCM_2} are designated as J$_{23}$ and J$_{24}$,
+where the photolysis rate for reactions \reactionref{r:MVK_hv_MCM_1} and \reactionref{r:MVK_hv_MCM_2} are designated as J$_{23}$ and J$_{24}$,
 respectively. 
-In order to keep the product yield as prescribed in MOZART-4, the photolysis rate parameter assigned to MVK photolysis using the MOZART-4 mechanism is \mbox{$0.7$ J$_{23}$ + $0.3$ J$_{24}$}.
+In order to keep the product yield as prescribed in MOZART-4, the photolysis rate assigned to MVK photolysis using the MOZART-4 mechanism is \mbox{$0.7$ J$_{23}$ + $0.3$ J$_{24}$}.
 
 
 \subsection{Organic Peroxy Radical Self and Cross Reactions} \label{ss:peroxy_radical_reactions}
