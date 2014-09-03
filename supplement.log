@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  21 AUG 2014 14:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  3 SEP 2014 08:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1500,146 +1500,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 29.
 
-(./Octane_analysis.tex
-<img/octane_carbon_breakdown.pdf, id=121, 9357.96124pt x 10074.63875pt>
-File: img/octane_carbon_breakdown.pdf Graphic file (type pdf)
-
-<use img/octane_carbon_breakdown.pdf>
-Package pdftex.def Info: img/octane_carbon_breakdown.pdf used on input line 4.
-(pdftex.def)             Requested size: 426.79135pt x 459.33452pt.
-LaTeX Info: Redefining \bond on input line 5.
-LaTeX Info: Redefining \dbond on input line 5.
-LaTeX Info: Redefining \tbond on input line 5.
-LaTeX Info: Redefining \bond on input line 5.
-LaTeX Info: Redefining \dbond on input line 5.
-LaTeX Info: Redefining \tbond on input line 5.
-LaTeX Info: Redefining \bond on input line 11.
-LaTeX Info: Redefining \dbond on input line 11.
-LaTeX Info: Redefining \tbond on input line 11.
-LaTeX Info: Redefining \bond on input line 13.
-LaTeX Info: Redefining \dbond on input line 13.
-LaTeX Info: Redefining \tbond on input line 13.
-LaTeX Info: Redefining \bond on input line 14.
-LaTeX Info: Redefining \dbond on input line 14.
-LaTeX Info: Redefining \tbond on input line 14.
-LaTeX Info: Redefining \bond on input line 15.
-LaTeX Info: Redefining \dbond on input line 15.
-LaTeX Info: Redefining \tbond on input line 15.
-LaTeX Info: Redefining \bond on input line 16.
-LaTeX Info: Redefining \dbond on input line 16.
-LaTeX Info: Redefining \tbond on input line 16.
-)
-LaTeX Info: Redefining \bond on input line 32.
-LaTeX Info: Redefining \dbond on input line 32.
-LaTeX Info: Redefining \tbond on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hyphen' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@protect' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@tmp' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@option@alwaystextmode' on input lin
-e 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\bond' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sbond' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dbond' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tbond' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tok@mhchem@ce@iii' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@tmp' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@ce@iii@tmp@i' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@ce@iii@tmp@ii' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\delimiter' on input line 32.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 32.
-
 (./Toluene_HO2.tex
-<img/TOL_MCM_CRI_HO2x_intermediates.pdf, id=123, 9366.995pt x 4730.67375pt>
+<img/TOL_MCM_CRI_HO2x_intermediates.pdf, id=117, 9366.995pt x 4730.67375pt>
 File: img/TOL_MCM_CRI_HO2x_intermediates.pdf Graphic file (type pdf)
 
 <use img/TOL_MCM_CRI_HO2x_intermediates.pdf>
@@ -1658,7 +1520,7 @@ LaTeX Info: Redefining \tbond on input line 29.
 LaTeX Info: Redefining \bond on input line 30.
 LaTeX Info: Redefining \dbond on input line 30.
 LaTeX Info: Redefining \tbond on input line 30.
- [5] [6 <./img/octane_carbon_breakdown.pdf>]
+ [5 <./img/TOL_MCM_CRI_HO2x_intermediates.pdf>]
 LaTeX Info: Redefining \bond on input line 41.
 LaTeX Info: Redefining \dbond on input line 41.
 LaTeX Info: Redefining \tbond on input line 41.
@@ -1672,66 +1534,68 @@ LaTeX Info: Redefining \bond on input line 43.
 LaTeX Info: Redefining \dbond on input line 43.
 LaTeX Info: Redefining \tbond on input line 43.
 ) (./Extra_plots.tex
-<img/pentane_radicals_budget_reactions.pdf, id=164, 15077.32875pt x 14350.61375
+<img/octane_carbon_breakdown.pdf, id=151, 9357.96124pt x 10074.63875pt>
+File: img/octane_carbon_breakdown.pdf Graphic file (type pdf)
+
+<use img/octane_carbon_breakdown.pdf>
+Package pdftex.def Info: img/octane_carbon_breakdown.pdf used on input line 4.
+(pdftex.def)             Requested size: 426.79135pt x 459.33452pt.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<img/pentane_radicals_budget_reactions.pdf, id=152, 15077.32875pt x 14350.61375
 pt>
 File: img/pentane_radicals_budget_reactions.pdf Graphic file (type pdf)
  <use img/pentane_radicals_budget_reactions.pdf>
 Package pdftex.def Info: img/pentane_radicals_budget_reactions.pdf used on inpu
-t line 4.
+t line 12.
 (pdftex.def)             Requested size: 426.79135pt x 406.19391pt.
 
-<img/toluene_radicals_budget_reactions.pdf, id=165, 15041.19376pt x 14350.61375
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<img/toluene_radicals_budget_reactions.pdf, id=153, 15041.19376pt x 14350.61375
 pt>
 File: img/toluene_radicals_budget_reactions.pdf Graphic file (type pdf)
  <use img/toluene_radicals_budget_reactions.pdf>
 Package pdftex.def Info: img/toluene_radicals_budget_reactions.pdf used on inpu
-t line 12.
+t line 20.
 (pdftex.def)             Requested size: 426.79135pt x 407.0698pt.
 
-<img/pentane_pan_budget_reactions.pdf, id=166, 15077.32875pt x 14350.61375pt>
-File: img/pentane_pan_budget_reactions.pdf Graphic file (type pdf)
 
-<use img/pentane_pan_budget_reactions.pdf>
-Package pdftex.def Info: img/pentane_pan_budget_reactions.pdf used on input lin
-e 20.
-(pdftex.def)             Requested size: 426.79135pt x 406.19391pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/toluene_pan_budget_reactions.pdf, id=167, 15077.32875pt x 14350.61375pt>
-File: img/toluene_pan_budget_reactions.pdf Graphic file (type pdf)
-
-<use img/toluene_pan_budget_reactions.pdf>
-Package pdftex.def Info: img/toluene_pan_budget_reactions.pdf used on input lin
-e 28.
-(pdftex.def)             Requested size: 426.79135pt x 406.19391pt.
- [7 <./img/TOL_MCM_CRI_HO2x_intermediates.pdf>] [8 <./img/pentane_radicals_budg
-et_reactions.pdf>] [9 <./img/toluene_radicals_budget_reactions.pdf>] [10 <./img
-/pentane_pan_budget_reactions.pdf>]
-[11 <./img/toluene_pan_budget_reactions.pdf>]) [12] (./supplement.bbl
+) [6] (./supplement.bbl [7 <./img/octane_carbon_breakdown.pdf>] [8 <./img/penta
+ne_radicals_budget_reactions.pdf>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
-
-(./supplement.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+) [9 <./img/toluene_radicals_budget_reactions.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+ (./supplement.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `supplement.out' has not changed.
-(rerunfilecheck)             Checksum: BB55E6EB857ABB423EBBA0A80C8C53B0;624.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+(rerunfilecheck)             Checksum: 90817CBBAAB7F1CD5D71DA89C6B23086;513.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 17457 strings out of 495007
- 300595 string characters out of 3179690
- 404654 words of memory out of 3000000
- 20209 multiletter control sequences out of 15000+200000
+ 17434 strings out of 495007
+ 300053 string characters out of 3179690
+ 404073 words of memory out of 3000000
+ 20197 multiletter control sequences out of 15000+200000
  20775 words of font info for 54 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,19n,70p,541b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1754,10 +1618,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on supplement.pdf (13 pages, 385971 bytes).
+Output written on supplement.pdf (10 pages, 314206 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 46 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
