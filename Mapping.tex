@@ -1,2 +1,52 @@
 
-mapping
+The emitted NMVOCs and initial mixing ratios are those typical of Los Angeles and taken from \citet{Baker:2008}.
+The MCM v3.2, v3.1 \citep{Jenkin:1997, Saunders:2003, Jenkin:2003} and CRI v2 \citep{Jenkin:2008} have specific species designed to represent each of these NMVOC explicitly.
+
+NMVOC representation in the other mechanisms required mapping to specific mechanism species.
+This mapping followed the recommendations in the mechanism's literature.
+Table \ref{t:VOC_mapping} describes the mechanism species used for mapping the initial NMVOC.
+Table 2 of the main article shows the final mapping of each NMVOC to each mechanism species.
+
+{
+    \renewcommand{\arraystretch}{1.3}
+    \begin{sidewaystable}
+        \begin{center}\footnotesize
+            \begin{tabular}{llP{8cm}|llP{8cm}}
+                \hline \hline
+                \textbf{Mechanism} & \textbf{Species} & \textbf{Description} & \textbf{Mechanism} & \textbf{Species} & \textbf{Description} \\
+                \hline
+                \multirow{8}{2cm}{MOZART-4 \citep{Emmons:2010}} & C2H6 & Ethane & \multirow{13}{2cm}{RACM2 \citep{Goliff:2013}} & ETH & Ethane \\
+                & C3H8 & Propane & & HC3 & OH rate constant (298 K, 1 atm) less than $3.4 \times 10^{-12}$ cm$^3$ s$^{-1}$ \\
+                & BIGALK & Lumped alkanes \mbox{C \textgreater $3$} & & HC5 & OH rate constant (298 K, 1 atm) between $3.4 \times 10^{-12}$ and $6.8 \times 10^{-12}$ cm$^3$ s$^{-1}$ \\
+                & C2H4 & Ethene & & HC8 & OH rate constant (298 K, 1 atm) greater than $6.8 \times 10^{-12}$ cm$^3$ s$^{-1}$ \\
+                & C3H6 & Propene & & ET{E} & Ethene \\
+                & BIGENE & Lumped alkenes \mbox{C \textgreater $3$} & & OLT & Terminal alkenes \\
+                & ISOP & Isoprene & & OLI & Internal alkenes \\
+                & TOLUENE & Lumped aromatics & & ISO & Isoprene \\ \cline{1-3}
+                \multirow{10}{2cm}{RADM2 \citep{Stockwell:1990}} & ETH & Ethane & & BEN & Benzene \\
+                & HC3 & OH rate constant (298, 1 atm) between $2.7 \times 10^{-13}$ and $3.4 \times 10^{-12}$ & & TOL & Toluene and less reactive aromatics \\
+                & HC5 & OH rate constant (298, 1 atm) between $3.4 \times 10^{-12}$ and $6.8 \times 10^{-12}$ & & XYM & m-Xylene \\
+                & HC8 & OH rate constant (298, 1 atm) greater than $6.8 \times 10^{-12}$ & & XYO & o-Xylene \\
+                & OL2 & Ethene & & XYP & p-Xylene \\ \cline{4-6}
+                & OLT & Terminal Alkenes & \multirow{7}{2cm}{CBM-IV \citep{Gery:1989}} & PAR & Paraffin carbon bond \ce{C-C} \\
+                & OLI & Internal Alkenes & & ETH & Ethene \\
+                & ISO & Isoprene & & OLE & Olefinic carbon bond \ce{C=C} \\
+                & TOL & Toluene and less reactive aromatics & & ALD2 & High molecular weight aldehydes \\
+                & XYL & Xylene and more reactive aromatics & & ISOP & Isoprene \\ \cline {1-3}
+                \multirow{10}{2cm}{RACM \citep{Stockwell:1997}} & ETH & Ethane & & TOL & Toluene \\
+                & HC3 & OH rate constant (298 K, 1 atm) less than $3.4 \times 10^{-12}$ cm$^3$ s$^{-1}$ & & XYL & Xylene \\ \cline{4-6}
+                & HC5 & OH rate constant (298 K, 1 atm) between $3.4 \times 10^{-12}$ and $6.8 \times 10^{-12}$ cm$^3$ s$^{-1}$ & \multirow{8}{2cm}{CB05 \citep{Yarwood:2005}} & ETHA & Ethane \\
+                & HC8 & OH rate constant (298 K, 1 atm) greater than $6.8 \times 10^{-12}$ cm$^3$ s$^{-1}$ & & PAR & Paraffin carbon bond \ce{C-C} \\
+                & ET{E} & Ethene & & OLE & Terminak olefin carbon bond \ce{R-C=C} \\
+                & OLT & Terminal alkenes & & FORM & Formaldehyde \\
+                & OLI & Internal alkenes & & ISOP & Isoprene \\
+                & ISO & Isoprene & & TOL & Toluene and other monoalkyl aromatics \\
+                & TOL & Toluene and less reactive aromatics & & XYL & Xylene and other polyalkyl aromatics \\
+                & XYL & Xylene and more reactive aromatics & & &  \\
+                \hline \hline
+            \end{tabular}
+            \caption{Description of primary mechanism species used for mapping emitted NMVOCs.}
+            \label{t:VOC_mapping}
+        \end{center}
+    \end{sidewaystable}
+}
