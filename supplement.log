@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  3 DEC 2014 15:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  3 DEC 2014 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,8 +1411,8 @@ LaTeX Info: Redefining \bond on input line 145.
 LaTeX Info: Redefining \dbond on input line 145.
 LaTeX Info: Redefining \tbond on input line 145.
 ) (./Mapping.tex
-Underfull \hbox (badness 1215) in paragraph at lines 5--9
-[]\T1/cmr/m/n/10.95 NMVOC rep-re-sen-ta-tion in the other mech-a-nisms re-quire
+Underfull \hbox (badness 1603) in paragraph at lines 5--9
+[]\T1/cmr/m/n/10.95 NMVOC rep-re-sen-ta-tion in all other mech-a-nisms re-quire
 d map-ping to spe-cific
  []
 
@@ -1422,12 +1422,12 @@ LaTeX Info: Redefining \tbond on input line 31.
 LaTeX Info: Redefining \bond on input line 33.
 LaTeX Info: Redefining \dbond on input line 33.
 LaTeX Info: Redefining \tbond on input line 33.
-LaTeX Info: Redefining \bond on input line 39.
-LaTeX Info: Redefining \dbond on input line 39.
-LaTeX Info: Redefining \tbond on input line 39.
 LaTeX Info: Redefining \bond on input line 40.
 LaTeX Info: Redefining \dbond on input line 40.
 LaTeX Info: Redefining \tbond on input line 40.
+LaTeX Info: Redefining \bond on input line 41.
+LaTeX Info: Redefining \dbond on input line 41.
+LaTeX Info: Redefining \tbond on input line 41.
 
 Overfull \hbox (47.01718pt too wide) in paragraph at lines 14--48
  [] 
@@ -1536,7 +1536,7 @@ type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb>
-Output written on supplement.pdf (15 pages, 545100 bytes).
+Output written on supplement.pdf (15 pages, 545073 bytes).
 PDF statistics:
  948 PDF objects out of 1000 (max. 8388607)
  432 compressed objects within 5 object streams
