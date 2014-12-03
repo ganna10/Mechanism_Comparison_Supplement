@@ -4,8 +4,8 @@ The top-level auxiliary file: supplement.aux
 The style file: plainnat.bst
 Database file #1: /local/home/coates/Documents/PhD_References.bib
 You've used 7 entries,
-            2773 wiz_defined-function locations,
-            642 strings with 6698 characters,
+            2760 wiz_defined-function locations,
+            639 strings with 6681 characters,
 and the built_in function-call counts, 4636 in all, are:
 = -- 382
 > -- 417
