@@ -1,32 +1,54 @@
-All chemical mechanisms were adapted into the modularised KPP \citep{Damian:2002} format from their original format for use in the MECCA boxmodel \citep{Sander:2011}.
+All chemical mechanisms were adapted into the modularised KPP \citep{Damian:2002} format from their original format for use in the MECCA boxmodel \citep{Sander:2005} as modified by \citep{Butler:2011}.
 
 The MCM v3.2 \citep{Jenkin:1997, Jenkin:2003, Saunders:2003, Bloss:2005, MCM_Site} was the reference mechanism. 
-Its approach to inorganic chemistry, dry deposition, photolysis and treatment of peroxy radical--peroxy radical reactions were applied to all mechanisms. 
+Its approach to inorganic chemistry, dry deposition, photolysis and peroxy radical--peroxy radical reactions were applied to all mechanisms. 
 
 \subsection{Photolysis} \label{ss:photolysis}
 Photolysis was parameterised as a function of the solar zenith angle as per the MCM approach \citep{Saunders:2003}. 
-Mechanism species with a direct MCM v3.2 counterpart were assigned the corresponding MCM v3.2 photolysis rate parameter. 
-Otherwise the mechanism's literature was used to determine the appropriate MCM v3.2 photolysis rate parameter. 
-In some cases this was the MCM v3.2 photolysis rate parameter closest in magnitude to that specified in the mechanism. 
+Species from reduced mechanisms having a direct \mbox{MCM v3.2} counterpart were assigned the corresponding MCM v3.2 photolysis rate. 
+Otherwise the recommended mechanism rate was used to determine the appropriate MCM v3.2 photolysis rate. 
+In some cases this was the MCM v3.2 photolysis rate closest in magnitude to that specified in the mechanism. 
 
-For example, in RACM2 the organic nitrate species ONIT has a photolysis rate of $1.96 \times 10^{-6}$ s$^{-1}$ that was compared to the MCM v3.2 organic nitrate photolysis rate parameters (J$_{51}$ -- J$_{57}$). 
-The rate parameter J$_{54}$ was the most similar and this was assigned as the ONIT photolysis rate parameter in RACM2.
+For example, the organic nitrate species ONIT in RACM2 has a photolysis rate of $1.96 \times 10^{-6}$ s$^{-1}$ that was compared to the MCM v3.2 organic nitrate photolysis rates \mbox{(J$_{51}$ -- J$_{57}$)}. 
+The rate parameter J$_{54}$ had the most similar magnitude and was assigned as the ONIT photolysis rate in RACM2.
 
-Photolysis of a mechanism species was sometimes represented by more than one \mbox{MCM v3.2} photolysis reaction. 
-The product yield of the original mechanism reaction was preserved by using a combination of the MCM v3.2 rate parameters. 
-For example, the photolysis of methyl vinyl ketone (MVK) in MOZART-4 is described by the reaction
+Photolysis of a reduced mechanism species was sometimes represented by more than one \mbox{MCM v3.2} photolysis reaction. 
+The original mechanism product yields were preserved using combinations of the MCM v3.2 rates. 
+This approach was used for RADM2 glyoxal photolysis. 
+Glyoxal photolysis in RADM2 is described by \reactionref{r:GLY_hv_1} and \reactionref{r:GLY_hv_2}.
 \begin{reactionlist}
-    \reactionitem{\ce{MVK + h$\nu$}}{0.7 CO + 0.7 \ce{C3H6} + 0.3 \ce{CH3O2} + 0.3 \ce{CH3CO3}}{new}{r:MVK_hv_MOZ}
+    \reactionitem{GLY + h$\nu$}{$0.13$ HCHO + $1.87$ CO + $0.87$ \ce{H2}}{new}{r:GLY_hv_1}
+    \reactionitem{GLY + h$\nu$}{$0.45$ HCHO + $1.55$ CO + $0.8$ \ce{HO2} + $0.15$ \ce{H2}}{new}{r:GLY_hv_2}
 \end{reactionlist} 
-Whereas in the MCM v3.2 it is described by two reactions
+Whereas in the MCM v3.2, \reactionref{r:GLYOX_hv_1}, \reactionref{r:GLYOX_hv_2} and \reactionref{r:GLYOX_hv_3} are prescribed for glyoxal photolysis with the rates J$_{31}$, J$_{32}$ and J$_{33}$ respectively.
 \begin{reactionlist}
-    \reactionitem{\ce{MVK + h$\nu$}}{\ce{C3H6 + CO}}{new}{r:MVK_hv_MCM_1}
-    \reactionitem{\ce{MVK + h$\nu$}}{\ce{CH3CO3 + CO + HCHO + HO2}}{new}{r:MVK_hv_MCM_2}
+    \reactionitem{GLYOX + h$\nu$}{$2$ CO + $2$ \ce{H2}}{new}{r:GLYOX_hv_1}
+    \reactionitem{GLYOX + h$\nu$}{$2$ CO + $2$ \ce{HO2}}{new}{r:GLYOX_hv_2}
+    \reactionitem{GLYOX + h$\nu$}{HCHO + CO}{new}{r:GLYOX_hv_3}
 \end{reactionlist}
-where the photolysis parameters for reactions \reactionref{r:MVK_hv_MCM_1} and \reactionref{r:MVK_hv_MCM_2} are designated as J$_{23}$ and J$_{24}$,
-respectively. 
-In order to keep the product yield as prescribed in MOZART-4, the photolysis rate parameter assigned to MVK photolysis using the MOZART-4 mechanism is \mbox{$0.7$ J$_{23}$ + $0.3$ J$_{24}$}.
-
+\reactionref{r:GLY_hv_1} product yields were retained using a photolysis rate of \mbox{$0.87$ J$_{31}$ + $0.13$ J$_{32}$}, whilst for \reactionref{r:GLY_hv_2} the rate \mbox{$0.15$ J$_{31}$ + $0.45$ J$_{32}$ + $0.4$ J$_{33}$} was used.
+Table \ref{t:glyoxal_photolysis} illustrates the product yield calculations.
+{
+    \renewcommand{\arraystretch}{1.3}
+    \begin{table}
+        \begin{center}\small
+            \begin{tabular}{lP{4.8cm}P{7.5cm}}
+                \hline \hline
+                & \textbf{Rate} & \textbf{MCM v3.2 Product Yields} \\ \hline \hline
+                \multirow{3}{*}{\reactionref{r:GLY_hv_1}} & $0.87$ J$_{31}$ & $1.74$ CO + $0.87$ \ce{H2} \\
+                & $0.13$ J$_{32}$ & $0.13$ CO + $0.13$ HCHO \\ \cline{2-3}
+                & $0.87$ J$_{31}$ + $0.13$ J$_{32}$ & $1.87$ CO + $0.13$ HCHO + $0.87$ \ce{H2} \\ \hline
+                \multirow{4}{*}{\reactionref{r:GLY_hv_2}} & $0.15$ J$_{31}$ & $0.30$ CO + $0.15$ \ce{H2} \\
+                & $0.45$ J$_{32}$ & $0.45$ CO + $0.45$ HCHO \\
+                & $0.4$ J$_{33}$ & $0.80$ CO + $0.80$ \ce{HO2} \\ \cline{2-3}
+                & $0.15$ J$_{31}$ + $0.45$ J$_{32}$ + $0.4$ J$_{33}$ & $1.55$ CO + $0.45$ HCHO + $0.80$ \ce{HO2} + $0.15$ \ce{H2} \\
+                \hline \hline
+            \end{tabular}
+            \caption{Calculation of glyoxal MCM v3.2 photolysis rates retaining RADM2 glyoxyl photolysis product yields.}
+            \label{t:glyoxal_photolysis}
+        \end{center}
+    \end{table}
+} 
 
 \subsection{Organic Peroxy Radical Self and Cross Reactions} \label{ss:peroxy_radical_reactions}
 {
@@ -71,15 +93,16 @@ In order to keep the product yield as prescribed in MOZART-4, the photolysis rat
 Reactions of organic peroxy radicals (\ce{RO2}) with other organic peroxy radicals are divided into self (\ce{RO2 + RO2}) and cross (\ce{RO2} + R$^{\prime}$\ce{O2}) reactions. 
 These reactions are typically represented in chemical mechanisms as bimolecular reactions which would cause ambiguities when implementing the tagging scheme. 
 Namely, which tag to be used for the products of reactions between \ce{RO2} having different tags. 
-To avoid such ambiguities, the MCM v3.2 approach to self and cross \ce{RO2} reactions is used -- all \ce{RO2} react with \ce{RO2} and R$^{\prime}$\ce{O2} at a single uniform rate. 
+To avoid such ambiguities, the MCM v3.2 approach to self and cross \ce{RO2} reactions is used -- each \ce{RO2} species reacts with the pool of all other \ce{RO2} at a single uniform rate. 
 This was represented as a pseudo-unimolecular reaction whose rate constant includes a factor `RO2' which was the sum of the mixing ratios of all organic peroxy radicals \citep{Saunders:2003}.
 
-The pseudo-unimolecular reaction products and their yields were determined either by using the \ce{RO2 + RO2} reaction and halving the product yields. 
-This is demonstrated for the MOZART-4 treatment of the ethyl peroxy radical in Table \ref{t:RO2}. 
+The pseudo-unimolecular reaction products and their yields were determined by one of two methods.
+Firstly, by using the \ce{RO2 + RO2} reaction and halving the product yields. 
+This is demonstrated for the MOZART-4 treatment of the ethyl peroxy radical in \mbox{Table \ref{t:RO2}}. 
 Alternatively, the \ce{RO2 + CH3O2} reaction was used and the products due to \ce{CH3O2} were removed. 
-Table \ref{t:ETHP} outlines the steps taken to determine the ETHP pseudo-unimolecular reaction in RACM2. 
+As an example, Table \ref{t:ETHP} outlines the steps taken to determine the ETHP pseudo-unimolecular reaction in RACM2. 
 
-First the products due to MO2, which represents \ce{CH3O2} in RACM2, are determined as outlined above using the \mbox{MO2 + MO2} reaction. 
+First the products due to MO2, representing \ce{CH3O2} in RACM2, are determined as outlined above using the \mbox{MO2 + MO2} reaction. 
 The MO2 product yields are then subtracted from the \mbox{ETHP + MO2} reaction. 
 Any products having a negative yield were not included in the final pseudo-unimolecular reaction.
 
@@ -90,19 +113,31 @@ This approach was used as the \mbox{\ce{CH3C(O)O2 + CH3O2}} reaction is the most
 The rate constant for each pseudo-unimolecular reaction was taken as that of the \mbox{\ce{RO2 + CH3O2}} reaction multiplied by an `RO2' factor, which is the sum of the mixing ratios of all organic peroxy radicals. 
 The \mbox{\ce{RO2 + CH3O2}} rate constant was chosen as this is the most likely reaction to occur in the atmosphere. 
 
+Model runs using the original and modified approach to the \ce{RO2}--\ce{RO2} reactions for each mechanism were performed.
+The resulting \ce{O3} concentration time series were compared and shown in Figure \ref{f:O3_concentrations}.
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=\textwidth]{img/O3_mixing_ratio_comparison}
+        \caption{\ce{O3} mixing ratio time series for each reduced mechanism using the original and modified approach to \ce{RO2}--\ce{RO2} reactions}
+        \label{f:O3_concentrations}
+    \end{center}
+\end{figure}
+
+
 \subsection{Dry Deposition}
 
 Dry deposition velocities were taken from the MCM v3.2. 
-The dry deposition velocity of MCM v3.2 species of the same chemical functional group was used for mechanism species without direct MCM v3.2 analogues. 
-For example, the dry deposition velocity of PAN species in all mechanisms was equivalent to that of the PAN species in the MCM v3.2.
+The MCM v3.2 dry deposition velocities of the same chemical functional group were used for mechanism species without direct MCM v3.2 analogues. 
+For example, the dry deposition velocity of PAN-like species in all mechanisms was equivalent to that of the PAN species in the MCM v3.2.
 
 \subsection{Negative Product Yield Treatment}
 
-Some mechanisms include reactions where certain products have a negative yield. 
-These reactions were re-written including an operator species with a positive yield as the analysis tools used in this study does not allow use of negative product yields. 
+Some mechanisms include reactions where products have a negative yield. 
+These reactions were re-written including an operator species with a positive yield as the analysis tools used in this study do not allow negative product yields. 
 The operator species acts as a sink for the original product by immediately reacting with the original product generating a `NULL' product. 
 
-For example, in RADM2 the reaction of cresol (CSL) with OH has negative OH yield \reactionref{r:CSL_OH}.
+For example, in RADM2 the OH + cresol (CSL) reaction has negative OH yield \reactionref{r:CSL_OH}.
 \begin{reactionlist}
     \reactionitem{CSL + OH}{0.1 \ce{HO2} + 0.9 \ce{XO2} + 0.9 \ce{TCO3} - 0.9 OH}{new}{r:CSL_OH}
 \end{reactionlist}
