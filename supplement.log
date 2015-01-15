@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  15 JAN 2015 17:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  15 JAN 2015 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,7 +1366,7 @@ LaTeX Info: Redefining \bond on input line 114.
 LaTeX Info: Redefining \dbond on input line 114.
 LaTeX Info: Redefining \tbond on input line 114.
 
-<img/O3_mixing_ratio_comparison.pdf, id=125, 3956.7825pt x 5662.15375pt>
+<img/O3_mixing_ratio_comparison.pdf, id=121, 3956.7825pt x 5662.15375pt>
 File: img/O3_mixing_ratio_comparison.pdf Graphic file (type pdf)
 
 <use img/O3_mixing_ratio_comparison.pdf>
@@ -1433,80 +1433,27 @@ Overfull \hbox (47.01718pt too wide) in paragraph at lines 14--48
  [] 
  []
 
-) (./Extra_plots.tex
-<img/octane_reactive_carbon_loss.pdf, id=184, 2867.71375pt x 2004.48875pt>
-File: img/octane_reactive_carbon_loss.pdf Graphic file (type pdf)
-
-<use img/octane_reactive_carbon_loss.pdf>
-Package pdftex.def Info: img/octane_reactive_carbon_loss.pdf used on input line
- 4.
-(pdftex.def)             Requested size: 426.79135pt x 298.30522pt.
-
-<img/pentane_reactive_carbon_loss.pdf, id=185, 10177.02126pt x 14415.8575pt>
-File: img/pentane_reactive_carbon_loss.pdf Graphic file (type pdf)
-
-<use img/pentane_reactive_carbon_loss.pdf>
-Package pdftex.def Info: img/pentane_reactive_carbon_loss.pdf used on input lin
-e 12.
-(pdftex.def)             Requested size: 426.79135pt x 604.47205pt.
-
-<img/toluene_reactive_carbon_loss.pdf, id=186, 10177.02126pt x 14415.8575pt>
-File: img/toluene_reactive_carbon_loss.pdf Graphic file (type pdf)
-
-<use img/toluene_reactive_carbon_loss.pdf>
-Package pdftex.def Info: img/toluene_reactive_carbon_loss.pdf used on input lin
-e 20.
-(pdftex.def)             Requested size: 426.79135pt x 604.47205pt.
-
-<img/MGLY_pentane_production_comparison.pdf, id=187, 10177.02126pt x 14415.8575
-pt>
-File: img/MGLY_pentane_production_comparison.pdf Graphic file (type pdf)
- <use img/MGLY_pentane_production_comparison.pdf>
-Package pdftex.def Info: img/MGLY_pentane_production_comparison.pdf used on inp
-ut line 28.
-(pdftex.def)             Requested size: 426.79135pt x 604.47205pt.
-
-<img/pentane_aldehyde_production_budget.pdf, id=188, 10166.98375pt x 14414.8537
-4pt>
-File: img/pentane_aldehyde_production_budget.pdf Graphic file (type pdf)
- <use img/pentane_aldehyde_production_budget.pdf>
-Package pdftex.def Info: img/pentane_aldehyde_production_budget.pdf used on inp
-ut line 36.
-(pdftex.def)             Requested size: 426.79135pt x 605.08981pt.
-
-<img/toluene_aldehyde_production_budget.pdf, id=189, 10166.98375pt x 14414.8537
-4pt>
-File: img/toluene_aldehyde_production_budget.pdf Graphic file (type pdf)
- <use img/toluene_aldehyde_production_budget.pdf>
-Package pdftex.def Info: img/toluene_aldehyde_production_budget.pdf used on inp
-ut line 44.
-(pdftex.def)             Requested size: 426.79135pt x 605.08981pt.
-) [6] [7] [8 <./img/octane_reactive_carbon_loss.pdf>] [9 <./img/pentane_reactiv
-e_carbon_loss.pdf>]
-[10 <./img/toluene_reactive_carbon_loss.pdf>] [11 <./img/MGLY_pentane_productio
-n_comparison.pdf>] [12 <./img/pentane_aldehyde_production_budget.pdf>] [13 <./i
-mg/toluene_aldehyde_production_budget.pdf>] (./supplement.bbl [14]
+) (./supplement.bbl [6] [7] [8]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
- [15]
+ [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
-
-(./supplement.aux)
+ (./supplement.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `supplement.out' has not changed.
-(rerunfilecheck)             Checksum: FE37B6DA1F17B711CF2CE36F8CE21F43;519.
+(rerunfilecheck)             Checksum: 19F2FD51A25172D59C2993A51C6AB8F2;473.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 17512 strings out of 495007
- 301591 string characters out of 3179690
- 409904 words of memory out of 3000000
- 20245 multiletter control sequences out of 15000+200000
+ 17458 strings out of 495007
+ 300054 string characters out of 3179690
+ 409201 words of memory out of 3000000
+ 20213 multiletter control sequences out of 15000+200000
  23069 words of font info for 57 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,24n,70p,526b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1536,10 +1483,10 @@ type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb>
-Output written on supplement.pdf (15 pages, 544401 bytes).
+Output written on supplement.pdf (9 pages, 308163 bytes).
 PDF statistics:
- 946 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 60 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
