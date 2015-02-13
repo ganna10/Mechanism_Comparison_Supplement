@@ -71,7 +71,7 @@ Table \ref{t:glyoxal_photolysis} illustrates the product yield calculations.
         \end{center}
     \end{table}
 }
-
+%
 {
     \renewcommand{\arraystretch}{1.3}
    \begin{table}
@@ -89,7 +89,7 @@ Table \ref{t:glyoxal_photolysis} illustrates the product yield calculations.
         \end{center}
     \end{table}
 }
-
+%
 Reactions of organic peroxy radicals (\ce{RO2}) with other organic peroxy radicals are divided into self (\ce{RO2 + RO2}) and cross (\ce{RO2} + R$^{\prime}$\ce{O2}) reactions. 
 These reactions are typically represented in chemical mechanisms as bimolecular reactions which would cause ambiguities when implementing the tagging scheme. 
 Namely, which tag to be used for the products of reactions between \ce{RO2} having different tags. 
@@ -115,16 +115,15 @@ The \mbox{\ce{RO2 + CH3O2}} rate constant was chosen as this is the most likely 
 
 Model runs using the original and modified approach to the \ce{RO2}--\ce{RO2} reactions for each mechanism were performed.
 The resulting \ce{O3} concentration time series were compared and shown in Figure \ref{f:O3_concentrations}.
-
-\begin{figure}
+%
+\begin{figure}[t!]
     \begin{center}
-        \includegraphics[width=\textwidth]{img/O3_mixing_ratio_comparison}
+        \includegraphics[height=0.5\textheight]{img/O3_mixing_ratio_comparison}
         \caption{\ce{O3} mixing ratio time series for each reduced mechanism using the original and modified approach to \ce{RO2}--\ce{RO2} reactions}
         \label{f:O3_concentrations}
     \end{center}
 \end{figure}
-
-
+%
 \subsection{Dry Deposition}
 
 Dry deposition velocities were taken from the MCM v3.2. 
