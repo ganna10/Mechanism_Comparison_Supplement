@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  15 JAN 2015 17:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  14 FEB 2015 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1163,7 +1163,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 \@outlinefile=\write4
 \openout4 = `supplement.out'.
 
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 22.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1365,14 +1365,13 @@ LaTeX Info: Redefining \tbond on input line 113.
 LaTeX Info: Redefining \bond on input line 114.
 LaTeX Info: Redefining \dbond on input line 114.
 LaTeX Info: Redefining \tbond on input line 114.
-
-<img/O3_mixing_ratio_comparison.pdf, id=121, 3956.7825pt x 5662.15375pt>
+ <img/O3_mixing_ratio_comparison.pdf, id=125, 415.5525pt x 410.53375pt>
 File: img/O3_mixing_ratio_comparison.pdf Graphic file (type pdf)
 
 <use img/O3_mixing_ratio_comparison.pdf>
 Package pdftex.def Info: img/O3_mixing_ratio_comparison.pdf used on input line 
 118.
-(pdftex.def)             Requested size: 426.79135pt x 610.65681pt.
+(pdftex.def)             Requested size: 341.28789pt x 337.16516pt.
 LaTeX Info: Redefining \bond on input line 119.
 LaTeX Info: Redefining \dbond on input line 119.
 LaTeX Info: Redefining \tbond on input line 119.
@@ -1391,25 +1390,26 @@ LaTeX Info: Redefining \tbond on input line 119.
 LaTeX Info: Redefining \bond on input line 119.
 LaTeX Info: Redefining \dbond on input line 119.
 LaTeX Info: Redefining \tbond on input line 119.
- [4] [5 <./img/O3_mixing_ratio_comparison.pdf>]
-LaTeX Info: Redefining \bond on input line 139.
-LaTeX Info: Redefining \dbond on input line 139.
-LaTeX Info: Redefining \tbond on input line 139.
-LaTeX Info: Redefining \bond on input line 139.
-LaTeX Info: Redefining \dbond on input line 139.
-LaTeX Info: Redefining \tbond on input line 139.
-LaTeX Info: Redefining \bond on input line 139.
-LaTeX Info: Redefining \dbond on input line 139.
-LaTeX Info: Redefining \tbond on input line 139.
-LaTeX Info: Redefining \bond on input line 145.
-LaTeX Info: Redefining \dbond on input line 145.
-LaTeX Info: Redefining \tbond on input line 145.
-LaTeX Info: Redefining \bond on input line 145.
-LaTeX Info: Redefining \dbond on input line 145.
-LaTeX Info: Redefining \tbond on input line 145.
-LaTeX Info: Redefining \bond on input line 145.
-LaTeX Info: Redefining \dbond on input line 145.
-LaTeX Info: Redefining \tbond on input line 145.
+ [4]
+LaTeX Info: Redefining \bond on input line 138.
+LaTeX Info: Redefining \dbond on input line 138.
+LaTeX Info: Redefining \tbond on input line 138.
+LaTeX Info: Redefining \bond on input line 138.
+LaTeX Info: Redefining \dbond on input line 138.
+LaTeX Info: Redefining \tbond on input line 138.
+LaTeX Info: Redefining \bond on input line 138.
+LaTeX Info: Redefining \dbond on input line 138.
+LaTeX Info: Redefining \tbond on input line 138.
+ [5 <./img/O3_mixing_ratio_comparison.pdf>]
+LaTeX Info: Redefining \bond on input line 144.
+LaTeX Info: Redefining \dbond on input line 144.
+LaTeX Info: Redefining \tbond on input line 144.
+LaTeX Info: Redefining \bond on input line 144.
+LaTeX Info: Redefining \dbond on input line 144.
+LaTeX Info: Redefining \tbond on input line 144.
+LaTeX Info: Redefining \bond on input line 144.
+LaTeX Info: Redefining \dbond on input line 144.
+LaTeX Info: Redefining \tbond on input line 144.
 ) (./Mapping.tex
 Underfull \hbox (badness 1603) in paragraph at lines 5--9
 []\T1/cmr/m/n/10.95 NMVOC rep-re-sen-ta-tion in all other mech-a-nisms re-quire
@@ -1433,27 +1433,63 @@ Overfull \hbox (47.01718pt too wide) in paragraph at lines 14--48
  [] 
  []
 
-) (./supplement.bbl [6] [7] [8]
+) [6] [7] (./Extra_plots.tex
+<img/Ox_production_vs_NO_emissions.pdf, id=216, 578.16pt x 794.97pt>
+File: img/Ox_production_vs_NO_emissions.pdf Graphic file (type pdf)
+
+<use img/Ox_production_vs_NO_emissions.pdf>
+Package pdftex.def Info: img/Ox_production_vs_NO_emissions.pdf used on input li
+ne 4.
+(pdftex.def)             Requested size: 426.79135pt x 586.83722pt.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+
+<img/net_reactive_carbon_loss.pdf, id=217, 601.24625pt x 402.50375pt>
+File: img/net_reactive_carbon_loss.pdf Graphic file (type pdf)
+
+<use img/net_reactive_carbon_loss.pdf>
+Package pdftex.def Info: img/net_reactive_carbon_loss.pdf used on input line 11
+.
+(pdftex.def)             Requested size: 426.79135pt x 285.72438pt.
+ [8 <./img/Ox_production_vs_NO_emissions.pdf>]) (./supplement.bbl [9 <./img/net
+_reactive_carbon_loss.pdf>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
- (./supplement.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+) [10])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+
+(./supplement.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `supplement.out' has not changed.
-(rerunfilecheck)             Checksum: 19F2FD51A25172D59C2993A51C6AB8F2;473.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+(rerunfilecheck)             Checksum: FE37B6DA1F17B711CF2CE36F8CE21F43;519.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 17458 strings out of 495007
- 300054 string characters out of 3179690
- 409201 words of memory out of 3000000
- 20213 multiletter control sequences out of 15000+200000
+ 17478 strings out of 495007
+ 300537 string characters out of 3179690
+ 408239 words of memory out of 3000000
+ 20223 multiletter control sequences out of 15000+200000
  23069 words of font info for 57 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,24n,70p,526b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1482,11 +1518,12 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy9.pfb>
-Output written on supplement.pdf (9 pages, 308163 bytes).
+/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on supplement.pdf (11 pages, 416635 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 338 compressed objects within 4 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
