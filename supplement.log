@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  10 MAR 2015 14:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  10 MAR 2015 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1433,14 +1433,14 @@ Overfull \hbox (47.01718pt too wide) in paragraph at lines 13--47
  [] 
  []
 
-) [6] [7]
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 33.
+(hyperref)                removing `math shift' on input line 32.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 33.
+(hyperref)                removing `math shift' on input line 32.
 
 (./Methylpropene.tex
 LaTeX Info: Redefining \bond on input line 7.
@@ -1467,6 +1467,7 @@ LaTeX Info: Redefining \tbond on input line 11.
 LaTeX Info: Redefining \bond on input line 11.
 LaTeX Info: Redefining \dbond on input line 11.
 LaTeX Info: Redefining \tbond on input line 11.
+ [6] [7]
 LaTeX Info: Redefining \bond on input line 13.
 LaTeX Info: Redefining \dbond on input line 13.
 LaTeX Info: Redefining \tbond on input line 13.
@@ -1474,13 +1475,13 @@ LaTeX Info: Redefining \bond on input line 14.
 LaTeX Info: Redefining \dbond on input line 14.
 LaTeX Info: Redefining \tbond on input line 14.
 ) (./Extra_plots.tex
-<img/Ox_production_vs_NO_emissions.pdf, id=228, 578.16pt x 794.97pt>
+<img/Ox_production_vs_NO_emissions.pdf, id=229, 562.1pt x 771.88374pt>
 File: img/Ox_production_vs_NO_emissions.pdf Graphic file (type pdf)
 
 <use img/Ox_production_vs_NO_emissions.pdf>
 Package pdftex.def Info: img/Ox_production_vs_NO_emissions.pdf used on input li
 ne 4.
-(pdftex.def)             Requested size: 426.79135pt x 586.83722pt.
+(pdftex.def)             Requested size: 337.15968pt x 432.25194pt.
 LaTeX Info: Redefining \bond on input line 5.
 LaTeX Info: Redefining \dbond on input line 5.
 LaTeX Info: Redefining \tbond on input line 5.
@@ -1500,31 +1501,42 @@ LaTeX Info: Redefining \bond on input line 5.
 LaTeX Info: Redefining \dbond on input line 5.
 LaTeX Info: Redefining \tbond on input line 5.
 
+<img/MCMv3_2_tagged_non_tagged_Ox_budget.pdf, id=230, 650.43pt x 606.265pt>
+File: img/MCMv3_2_tagged_non_tagged_Ox_budget.pdf Graphic file (type pdf)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<img/net_reactive_carbon_loss.pdf, id=229, 601.24625pt x 402.50375pt>
+<use img/MCMv3_2_tagged_non_tagged_Ox_budget.pdf>
+Package pdftex.def Info: img/MCMv3_2_tagged_non_tagged_Ox_budget.pdf used on in
+put line 12.
+(pdftex.def)             Requested size: 362.77937pt x 303.44627pt.
+LaTeX Info: Redefining \bond on input line 13.
+LaTeX Info: Redefining \dbond on input line 13.
+LaTeX Info: Redefining \tbond on input line 13.
+LaTeX Info: Redefining \bond on input line 13.
+LaTeX Info: Redefining \dbond on input line 13.
+LaTeX Info: Redefining \tbond on input line 13.
+ [8 <./img/Ox_production_vs_NO_emissions.pdf>]
+<img/net_reactive_carbon_loss.pdf, id=308, 601.24625pt x 398.48875pt>
 File: img/net_reactive_carbon_loss.pdf Graphic file (type pdf)
 
 <use img/net_reactive_carbon_loss.pdf>
-Package pdftex.def Info: img/net_reactive_carbon_loss.pdf used on input line 11
+Package pdftex.def Info: img/net_reactive_carbon_loss.pdf used on input line 20
 .
-(pdftex.def)             Requested size: 426.79135pt x 285.72438pt.
-) (./supplement.bbl [8]
+(pdftex.def)             Requested size: 426.80525pt x 269.74051pt.
+) (./supplement.bbl [9 <./img/MCMv3_2_tagged_non_tagged_Ox_budget.pdf> <./img/n
+et_reactive_carbon_loss.pdf
 
-LaTeX Warning: Text page 9 contains only floats.
-
-[9 <./img/Ox_production_vs_NO_emissions.pdf>] [10 <./img/net_reactive_carbon_lo
-ss.pdf>]
+pdfTeX warning: pdflatex (file ./img/net_reactive_carbon_loss.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] [10]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 86.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [11])
+))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-
-[12]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
- (./supplement.aux)
+
+(./supplement.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `supplement.out' has not changed.
@@ -1532,10 +1544,10 @@ Package rerunfilecheck Info: File `supplement.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 17488 strings out of 495007
- 300680 string characters out of 3179690
+ 17493 strings out of 495007
+ 300911 string characters out of 3179690
  408239 words of memory out of 3000000
- 20228 multiletter control sequences out of 15000+200000
+ 20232 multiletter control sequences out of 15000+200000
  24206 words of font info for 61 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,24n,70p,526b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1565,12 +1577,11 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on supplement.pdf (12 pages, 425967 bytes).
+y9.pfb>
+Output written on supplement.pdf (11 pages, 392480 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
+ 918 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
  54 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
